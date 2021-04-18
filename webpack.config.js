@@ -1,11 +1,12 @@
 const path = require('path')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'selection-popup.js',
+    filename: 'index.js',
     library: '@cels/selection-popup',
     libraryExport: 'default',
     libraryTarget: 'umd'
@@ -23,5 +24,6 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [new CopyWebpackPlugin([{ from: 'index.d.ts' }])]
 }
