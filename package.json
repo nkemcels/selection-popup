@@ -1,5 +1,5 @@
 {
-  "name": "@nkemtasoft/selection-popup",
+  "name": "@cels/selection-popup",
   "version": "2.0.0",
   "description": "Perform actions on selected text",
   "main": "dist/selection-popup.js",

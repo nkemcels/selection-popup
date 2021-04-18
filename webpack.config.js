@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'selection-popup.js',
-    library: '@nkemtasoft/selection-popup',
+    library: '@cels/selection-popup',
     libraryExport: 'default',
     libraryTarget: 'umd'
   },
