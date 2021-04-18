@@ -1,8 +1,10 @@
 type TConfig = {
-  twitterUsername: string
-  backgroundColor: string
-  iconColor: string
-  selectableElements: (string | Element)[]
+  facebook?: boolean
+  twitter?: boolean
+  twitterUsername?: string
+  backgroundColor?: string
+  iconColor?: string
+  selectableElements?: (string | Element)[]
 }
 type TCustomShareButtons = { icon: string; url: string }[]
 type TCustomButtons = { icon: string; onclick: () => void }[]
