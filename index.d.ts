@@ -11,7 +11,7 @@ interface ISelectionPopup {
   appendCustomButtons(buttons: TCustomButtons): ISelectionPopup
   init(): ISelectionPopup
 }
-type SelectionPopup = {
+const SelectionPopup = {
   config(t: TConfig): ISelectionPopup
 }
 
