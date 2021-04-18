@@ -1,9 +1,9 @@
 {
   "name": "@cels/selection-popup",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Perform actions on selected text",
   "main": "dist/selection-popup.js",
-  "author": "Estevan Maito <ejmaito@gmail.com>",
+  "author": "Nkemtakeh Celsoppe <nkemcels.projects@gmail.com>",
   "typings": "index.d.ts",
   "scripts": {
     "test": "jest --watch",
