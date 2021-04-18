@@ -50,7 +50,7 @@ describe('moveTooltip', () => {
 
     moveTooltip(props)
 
-    const assert = document.querySelector('.sharect').style
+    const assert = document.querySelector('.SelectionPopup__NoCollisions').style
     const expectedLeft = `${getTooltipPosition(props).left}px`
 
     expect(assert.left).toEqual(expectedLeft)

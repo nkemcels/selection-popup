@@ -14,7 +14,7 @@ export default function Tooltip(props) {
 
   const tooltip = document.createElement('div')
   let buttonSize = iconSize + buttonMargin
-  tooltip.className = 'sharect'
+  tooltip.className = 'SelectionPopup__NoCollisions'
 
   tooltip.style.cssText = defaultStyle(backgroundColor)
   tooltip.style.cssText += desktopStyle(top, left)

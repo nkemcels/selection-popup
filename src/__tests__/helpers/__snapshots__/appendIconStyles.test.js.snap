@@ -5,7 +5,7 @@ exports[`appendIconStyle should create a style tag 1`] = `
   <style
     id="sharect-style"
   >
-    .sharect svg{fill:#F34;}
+    .SelectionPopup__NoCollisions svg{fill:#F34;}
   </style>
 </body>
 `;

@@ -7,8 +7,13 @@ export function getParsedURL(url, username) {
     .replace(/USERNAME/, username)
 }
 
+export function createCustomButton(icon, callback = () => {}) {
+  const btn = Button(icon, callback)
+  return btn
+}
+
 export default function createShareButton(icon, url, username) {
-  const btn = Button(icon, function() {
+  const btn = Button(icon, function () {
     const parsedURL = getParsedURL(url, username)
     window.open(parsedURL, 'Share', 'width=550, height=280')
   })

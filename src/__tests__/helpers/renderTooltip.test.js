@@ -33,7 +33,7 @@ describe('renderTooltip', () => {
   it('should render desktop Tooltip', () => {
     renderTooltip(props)
 
-    const assert = document.body.querySelector('.sharect')
+    const assert = document.body.querySelector('.SelectionPopup__NoCollisions')
 
     expect(assert).toBeDefined()
     expect(assert.children).toHaveLength(2)

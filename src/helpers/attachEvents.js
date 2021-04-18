@@ -11,7 +11,9 @@ function handleMouseUp(props) {
         moveTooltip({ ...props })
         return
       } else {
-        document.body.removeChild(document.querySelector('.sharect'))
+        document.body.removeChild(
+          document.querySelector('.SelectionPopup__NoCollisions')
+        )
       }
     }
     if (hasSelection() && isSelectableElement(props.selectableElements)) {
