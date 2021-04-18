@@ -22,7 +22,8 @@
     }
   },
   "files": [
-    "dist/selection-popup.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "dependencies": {},
   "devDependencies": {
