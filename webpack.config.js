@@ -5,8 +5,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'sharect.js',
-    library: 'Sharect',
+    filename: 'selection-popup.js',
+    library: '@nkemtasoft/selection-popup',
     libraryExport: 'default',
     libraryTarget: 'umd'
   },

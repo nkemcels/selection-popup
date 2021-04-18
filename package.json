@@ -1,7 +1,7 @@
 {
-  "name": "selection-popup",
+  "name": "@nkemtasoft/selection-popup",
   "version": "2.0.0",
-  "description": "Share selection text",
+  "description": "Perform actions on selected text",
   "main": "dist/selection-popup.js",
   "author": "Estevan Maito <ejmaito@gmail.com>",
   "typings": "index.d.ts",

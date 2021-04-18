@@ -1,4 +1,4 @@
-declare module 'selection-popup' {
+declare module '@nkemtasoft/selection-popup' {
   type TConfig = {
     twitterUsername: string
     backgroundColor: string
