@@ -4,7 +4,7 @@
   "description": "Perform actions on selected text",
   "main": "dist/index",
   "author": "Nkemtakeh Celsoppe <nkemcels.projects@gmail.com>",
-  "typings": "index.d.ts",
+  "typings": "dist/index",
   "scripts": {
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
