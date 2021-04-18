@@ -1,9 +1,10 @@
 {
-  "name": "sharect",
+  "name": "selection-popup",
   "version": "2.0.0",
   "description": "Share selection text",
-  "main": "dist/sharect.js",
+  "main": "dist/selection-popup.js",
   "author": "Estevan Maito <ejmaito@gmail.com>",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
@@ -16,12 +17,12 @@
     "github": {
       "release": true,
       "assets": [
-        "dist/sharect.js"
+        "dist/selection-popup.js"
       ]
     }
   },
   "files": [
-    "dist/sharect.js"
+    "dist/selection-popup.js"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -37,17 +38,17 @@
   },
   "license": "MIT",
   "keywords": [
-    "sharect",
+    "selection-popup",
     "share",
     "text",
     "selection"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estevanmaito/sharect.git"
+    "url": "git+https://github.com/nkemcels/selection-popup.git"
   },
   "bugs": {
-    "url": "https://github.com/estevanmaito/sharect/issues"
+    "url": "https://github.com/nkemcels/selection-popup/issues"
   },
-  "homepage": "https://github.com/estevanmaito/sharect#readme"
+  "homepage": "https://github.com/nkemcels/selection-popup#readme"
 }

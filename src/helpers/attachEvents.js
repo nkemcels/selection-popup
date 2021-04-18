@@ -4,7 +4,8 @@ import isSelectableElement from './isSelectableElement'
 import moveTooltip from './moveTooltip'
 import renderTooltip from './renderTooltip'
 
-function handleMouseUp(props) {
+let props = null
+function handleMouseUp() {
   setTimeout(function mouseTimeout() {
     if (hasTooltipDrawn()) {
       if (hasSelection() && isSelectableElement(props.selectableElements)) {
@@ -22,6 +23,8 @@ function handleMouseUp(props) {
   }, 10)
 }
 
-export default function attachEvents(props) {
-  window.addEventListener('mouseup', () => handleMouseUp(props), false)
+export default function attachEvents(_props) {
+  props = _props
+  window.removeEventListener('mouseup', handleMouseUp, false)
+  window.addEventListener('mouseup', handleMouseUp, false)
 }
